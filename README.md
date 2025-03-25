@@ -31,5 +31,23 @@ $B13Hello, World!
 ```
 To exit the terminal session, disconnect the modem. You can also press `Ctrl + A` followed by `Ctrl + \` to exit the session. (#TODO: correct this)
 
+## Timed Transmissions
+For timed transmissions, the modem will only accept transmissions scheduled up to 2 seconds in the future. Use the following command format:
+```sh
+$B05HelloT01234567890123
+```
+To schedule a transmission, get the current system time and immediately schedule the transmission programmatically. The modem will then broadcast the message when the internal 1 MHz clock reaches the specified time.
+
 ## Acknowledgments
 Special thanks to the Succorfish team for their support and documentation.
+
+## Contact
+For further assistance, you can contact:
+- Benjamin Sherlock, Research Associate, Newcastle University
+  - Email: benjamin.sherlock@newcastle.ac.uk
+  - Tel: 0191 20 85286
+  - [Profile](https://www.ncl.ac.uk/engineering/staff/profile/benjaminsherlock.html)
+- Jeff Neasham, Professor, Newcastle University
+  - Email: jeff.neasham@ncl.ac.uk
+  - Tel: +44 (0)191 2088850
+  - [Profile](https://www.ncl.ac.uk/engineering/staff/profile/jeffneasham.html)
