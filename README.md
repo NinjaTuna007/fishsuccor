@@ -14,7 +14,7 @@ This repository contains scripts and documentation for working with Succorfish D
 
 2. **Connect Modems**:
    - Connect the modems to your computer via USB.
-   - Ensure the modems are aligned to ideally face each other for optimal communication.
+   - When testing in air, ensure that the modems are aligned to ideally face each other for optimal communication.
 
 ## Usage
 We use the screen command to communicate with the modems. To open a terminal session with the modem, run the following command:
