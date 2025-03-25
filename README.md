@@ -40,14 +40,3 @@ To schedule a transmission, get the current system time and immediately schedule
 
 ## Acknowledgments
 Special thanks to the Succorfish team for their support and documentation.
-
-## Contact
-For further assistance, you can contact:
-- Benjamin Sherlock, Research Associate, Newcastle University
-  - Email: benjamin.sherlock@newcastle.ac.uk
-  - Tel: 0191 20 85286
-  - [Profile](https://www.ncl.ac.uk/engineering/staff/profile/benjaminsherlock.html)
-- Jeff Neasham, Professor, Newcastle University
-  - Email: jeff.neasham@ncl.ac.uk
-  - Tel: +44 (0)191 2088850
-  - [Profile](https://www.ncl.ac.uk/engineering/staff/profile/jeffneasham.html)
