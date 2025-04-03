@@ -29,7 +29,7 @@ if ser.is_open:
     print("Serial port is open")
 
 #Enable the timer
-resp1 = send_and_get_response(1,1,"$XTC")
+resp1 = send_and_get_response(1,1,"$XTE")
 time.sleep(0.25)
 
 while True:
