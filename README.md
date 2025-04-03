@@ -38,5 +38,10 @@ $B05HelloT01234567890123
 ```
 To schedule a transmission, get the current system time and immediately schedule the transmission programmatically. The modem will then broadcast the message when the internal 1 MHz clock reaches the specified time.
 
+### Timestamped Delays
+- For scheduled transmissions, this is the time at which the modem begins the process of preparing the packet, powering up the transmit power supply, and then starting to emit the acoustic waveforms. So this equates to **about 7ms prior** to the acoustic emission. 
+- For timestamped message arrivals, this occurs when the framesynch has been detected, so **at the end of the 30ms chirp arriving**.
+- Future firmware versions might revisit this and perhaps set it such  that the scheduled transmission time is when the actual acoustic emission begins.
+
 ## Acknowledgments
 Special thanks to the Succorfish team for their support and documentation.
