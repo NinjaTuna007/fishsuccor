@@ -29,7 +29,7 @@ Once you're in the terminal session, you can send commands to the modem. For exa
 ```sh
 $B13Hello, World!
 ```
-To exit the terminal session, disconnect the modem. You can also press `Ctrl + A` followed by `Ctrl + \` to exit the session. (#TODO: correct this)
+To exit the terminal session, disconnect the modem. You can also kill the screen session by pressing `Ctrl + A` followed by `K` and confirming the action.
 
 ## Timed Transmissions
 For timed transmissions, the modem will only accept transmissions scheduled up to 2 seconds in the future. Use the following command format:
